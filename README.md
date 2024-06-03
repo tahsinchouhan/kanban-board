@@ -5,7 +5,7 @@ Kanban is a Kanban board application built using Next.js. It provides a user-fri
 ## Features
 
 -   **Kanban Board**: Create boards with customizable columns and cards to manage tasks efficiently.
--   **User Authentication**: Users can create accounts and log in using Google, GitHub, or email (magic link).
+-   **User Authentication**: Users can create accounts and log in using Google.
 -   **Cloud Database**: Utilizes a cloud-hosted database on PlanetScale to store board and user data securely.
 -   **Continuous Integration**: Integrates with GitHub Actions for automated testing and deployment.
 -   **Automated Tests**: Includes unit tests, Playwright tests for API and UI, and Chromatic tests for visual regression.
