@@ -1,5 +1,7 @@
 # Kanban
 
+Tahsin Chouhan Coding Assessment Kanban Board
+
 Kanban is a Kanban board application built using Next.js. It provides a user-friendly interface for managing tasks and organizing projects using the Kanban methodology. This readme file provides an overview of the project and its setup instructions.
 
 ## Features
@@ -61,21 +63,6 @@ npm run dev
 ```
 
 Open your web browser and navigate to `http://localhost:3000` to access the application.
-
-### Continuous Integration
-
-Kanban utilizes GitHub Actions for continuous integration. When a pull request is created, automated tests are triggered, including unit tests, Playwright tests, and Chromatic tests. Merging the pull request is only allowed if all checks pass.
-The following environment variables need to be set for this project:
-
-```bash
-WEBHOOK_ID=webhook-id # Obtained by visiting webhook.site
-WEBHOOK_ID_ALT=webhook-id-alt # Obtained by visiting webhook.site
-CHROMATIC_PROJECT_TOKEN=project-token # Create a new project on Chromatic to obtain a token
-```
-
-### Deployment
-
-The project is hosted on Vercel, which automatically deploys the application when a pull request is merged into the main branch.
 
 ## Testing
 
